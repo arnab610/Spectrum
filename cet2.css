@@ -1,0 +1,192 @@
+.main {
+  position: relative;
+}
+img {
+  position: absolute;
+  width:80%;
+  }
+body {
+  margin: 0px;
+}
+.box1 {
+  width: 120px;
+  height: 99px;
+  background-color: #ff751a;
+padding-top: 5px;
+  position: absolute;
+  top: 10px;
+  left: 264px;
+}
+.box2 {
+  width: 120px;
+  height: 112px;
+  background-color: #ff751a;
+padding-top: 5px;
+  position: absolute;
+  top: 122px;
+  left: 264px;
+}
+.box3 {
+  width: 120px;
+  height: 105px;
+  background-color: #ff751a;
+padding-top: 5px;
+  position: absolute;
+  top: 247px;
+  left: 264px;
+}
+.stairs {
+  background-color: red;
+  height: 70px;
+  width: 123px;
+  position: absolute;
+  top: 364px;
+  left: 262px;
+}
+
+.st {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+}
+.wash {
+  width: 121px;
+  height: 89px;
+  background-color: #660000;
+padding-top: 5px;
+  position: absolute;
+  top: 441px;
+  left: 262px;
+}
+.staff {
+  width: 83px;
+  height: 174.5px;
+  background-color: #1ab2ff;
+  padding-left: 40px;
+padding-top: 20px;
+  position: absolute;
+  top: 542px;
+  left: 261.5px;
+}
+.s {
+  width: 30%;
+}
+.box4 {
+  width: 130px;
+  height: 105px;
+  background-color: #ff751a;
+
+padding-top: 5px;
+  position: absolute;
+  top: 7px;
+  left: 518px;
+}
+.b {
+  margin-left: 10px;
+}
+.box5 {
+  width: 130px;
+  height: 107px;
+  background-color: #ff751a;
+
+padding-top: 5px;
+  position: absolute;
+  top: 125px;
+  left: 518px;
+}
+.box6 {
+  width: 131px;
+  height: 183.5px;
+  background-color: #ff751a;
+
+padding-top: 5px;
+  position: absolute;
+  top: 244px;
+  left: 519px;
+}
+.bo {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.box7 {
+  width: 215px;
+  height: 182.5px;
+  background-color: #ccff33;
+
+padding-top: 5px;
+  position: absolute;
+  top: 442px;
+  left: 515.5px;
+}
+.cttc {
+  width: 132px;
+  height: 158px;
+  background-color: #1ab2ff;
+  border: 2px solid;
+padding-top: 20px;
+  position: absolute;
+  top: 447px;
+  left: 736px;
+}
+.c {
+  color: white;
+  margin-top: 32px
+}
+.spectrum {
+  width: 146px;
+  height: 159px;
+  background-color: #1ab2ff;
+  border: 2px solid;
+padding-top: 20px;
+  position: absolute;
+  top: 447px;
+  left: 874px;
+}
+.sp {
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.stair {
+  background-color: red;
+  height: 112px;
+  width: 75px;
+  position: absolute;
+  top: 701px;
+  left: 593px;
+}
+
+.st {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+}
+.box8 {
+  background-color: #1ab2ff;
+  height: 113px;
+  width: 143px;
+  border:2px solid;
+  position: absolute;
+  top: 699px;
+  left: 674px;
+}
+.meet {
+  padding-left: 20px;
+}
+.box9 {
+  background-color: #1ab2ff;
+  height: 113px;
+  width: 195px;
+  border:2px solid;
+  position: absolute;
+  top: 699px;
+  left: 822px;
+}
+.lab {
+  margin-top:40px;
+  margin-left:50px;
+}
+h2 {
+  color: white;
+}

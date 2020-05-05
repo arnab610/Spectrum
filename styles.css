@@ -1,0 +1,168 @@
+.main {
+  background-color: cyan;
+  position: relative;
+}
+img {
+  position: absolute;
+  width:80%;
+
+  }
+body {
+margin: 0px;
+}
+h2 {
+  color: white;
+}
+
+
+.stairs {
+background-color: red;
+  height: 66px;
+  width: 138px;
+  position: absolute;
+  top: 365px;
+  left: 259px;
+
+}
+.st {
+    background-color: red;
+      position: absolute;
+  width:100%;
+  height:100%;
+}
+
+.stair {
+  background-color: red;
+    height: 123px;
+    width: 72px;
+    position: absolute;
+    top: 689px;
+    left: 593.5px}
+
+
+
+.box1 {
+  width:114px;
+  height: 102px;
+  background-color: #ff751a;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+  top:8px;
+  left: 262px;
+}
+.box2 {
+  width:114.5px;
+  height: 100px;
+  background-color: #ff751a;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+  top:138px;
+  left: 261px;
+}
+.box3 {
+
+width:115.5px;
+  height: 78px;
+  background-color: #ff751a;
+  padding-left: 20px;
+  padding-top: 15px;
+  position: absolute;
+  top:266px;
+  left: 260px;
+}
+.open {
+  width:113px;
+  height: 103px;
+  background-color: #ccff33;
+  padding-left: 20px;
+  padding-top: 20px;
+
+  position: absolute;
+  top:616px;
+  left: 260px;
+}
+.box4 {
+    width:112px;
+    height: 102px;
+    background-color: #ff751a;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+    top:8px;
+    left: 518px;
+}
+.box5 {
+  width:114px;
+  height: 96px;
+  background-color: #ff751a;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+  top:138px;
+  left: 518px;
+}
+.box6 {
+  width:114.5px;
+    height: 80.5px;
+    background-color: #ff751a;
+    padding-left: 20px;
+    padding-top: 15px;
+    position: absolute;
+    top:261.5px;
+    left: 518.5px;
+}
+.Open{
+  width:163.5px;
+    height: 197px;
+    background-color: #ccff33;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    position: absolute;
+    top:364px;
+    left: 514.5px;
+}
+.princi {
+  width:114px;
+    height: 142px;
+    background-color: #1ab2ff;
+    padding-left: 15px;
+    padding-top: 20px;
+    position: absolute;
+    top:448px;
+    left: 737px;
+}
+.hod {
+  width:138.5px;
+    height: 142px;
+    background-color: #1ab2ff;
+    padding-left:10px;
+    padding-top: 20px;
+
+    position: absolute;
+    top:448px;
+    left: 871.5px;
+}
+.read {
+  background-color: #1ab2ff;
+    height: 121px;
+    width: 136.5px;
+    padding-left:20px;
+
+    position: absolute;
+    top: 689px;
+    left: 672px;
+  }
+.lib {
+  background-color: #1ab2ff;
+    height: 92px;
+    width: 146.5px;
+    padding-left:40px;
+    padding-top: 30px;
+    position: absolute;
+    top: 689px;
+    left: 833.5px;
+}
