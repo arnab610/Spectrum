@@ -1,0 +1,9 @@
+var d =new Date();
+var year=d.getFullYear();
+var month=d.getMonth();
+var day=d.getDate();
+var hours=d.getHours();
+var min=d.getMinutes();
+var sec=d.getSeconds();
+var t=document.querySelector(".time");
+t.innerHTML="TIME : "+(hours)+":"+min+":"+sec+" DATE : "+(day)+"/"+(month+1)+"/"+year;

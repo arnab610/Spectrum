@@ -193,3 +193,43 @@ img {
 h2 {
   color: white;
 }
+.hover-class:hover {
+  background-color: violet;
+}
+.data {
+  background-color: white;
+  box-sizing: border-box;
+  line-height: 1.6;
+  padding-top: 2%;
+  padding-left: 7%;
+  padding-right: 18%;
+  width:40%;
+  height: 42%;
+  border-style: solid;
+  border-width: 8px ;
+  position: absolute;
+  right: .3%;
+  top: .1%;
+}
+h1 {
+  font-size:2.2em;
+  font-weight:bolder;
+}
+.time {
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: .5%;
+  padding-left: 2%;
+  width:25%;
+  height: 8%;
+  border-style: solid;
+  border-width: 8px ;
+  position: absolute;
+  right: 1%;
+  top: 43%;
+}
+.t {
+  margin: 0;
+  padding: 0;
+  color: black;
+}

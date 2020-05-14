@@ -1,11 +1,9 @@
 .main {
-  background-color: cyan;
+
   position: relative;
 }
 img {
-  position: absolute;
   width:80%;
-
   }
 body {
 margin: 0px;
@@ -165,4 +163,46 @@ width:115.5px;
     position: absolute;
     top: 689px;
     left: 833.5px;
+}
+.hover-class:hover {
+  background-color: violet;
+}
+h1 {
+  font-size:2.2em;
+  font-weight:bolder;
+}
+
+
+.data {
+  background-color: white;
+  box-sizing: border-box;
+  line-height: 1.5;
+  width:32%;
+  height: 33.6%;
+  padding-left: 5%;
+  padding-top:2%;
+  padding-right: 12%;
+  border-style: solid;
+  border-width: 8px; ;
+  position: absolute;
+  right: 20.8%;
+  top: .2%;
+}
+.time {
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: .5%;
+  padding-left: 2%;
+  width:20%;
+  height: 8%;
+  border-style: solid;
+  border-width: 8px ;
+  position: absolute;
+  right: 21.5%;
+  top: 34%;
+}
+.t {
+  margin: 0;
+  padding: 0;
+  color: black;
 }
