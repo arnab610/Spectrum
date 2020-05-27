@@ -167,6 +167,9 @@ width:115.5px;
 .hover-class:hover {
   background-color: violet;
 }
+.hover-class1:hover {
+  background-color: violet;
+}
 h1 {
   font-size:2.2em;
   font-weight:bolder;
@@ -205,4 +208,123 @@ h1 {
   margin: 0;
   padding: 0;
   color: black;
+}
+.data-inner{
+  background-color: white;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 1.5%;
+}
+.notice {
+  text-align: left;
+}
+p {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 50%; /* Full width */
+* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  background-color: yellow;
+}
+.preloader {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(0,0,0,1);
+  position: fixed;
+  left: 0;
+  top:0;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid grey;
+  border-bottom: 16px solid grey;
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: 4%;
+  height: 8%;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 3s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.wel {
+  background-color: yellow;
+  position: absolute;
+  width: 17%;
+  top: 50%;
+  -webkit-animation: move 5s linear infinite;
+  animation: move 5s linear infinite;
+}
+
+@-webkit-keyframes move {
+  0% { transform: rotate(0deg);background-color: yellow;left:0%;}
+ 25% { transform: rotate(90deg);background-color: green; left:25%; }
+ 50% { transform: rotate(180deg); background-color: blue; left:50%;}
+ 75% { transform: rotate(240deg); background-color: red; left:75%;}
+  100% { transform: rotate(360deg); background-color: cyan; left:95%;}
+
+}
+
+@keyframes move {
+  0% { transform: rotate(0deg);background-color: yellow;left:0%;}
+ 25% { transform: rotate(90deg);background-color: green; left:25%; }
+ 50% { transform: rotate(180deg); background-color: blue; left:50%;}
+ 75% { transform: rotate(240deg); background-color: red; left:75%;}
+  100% { transform: rotate(360deg); background-color: cyan; left:95%;}
+}
+.pointer {
+  pointer-events: none;
+}
+.pointer1 {
+  pointer-events:auto;
 }
