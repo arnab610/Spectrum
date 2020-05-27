@@ -292,8 +292,8 @@ button {
   background-color: yellow;
 }
 .pointer {
-  pointer-events: none;
+  pointer-events: auto;
 }
 .pointer1 {
-  pointer-events:auto;
+  pointer-events:none;
 }

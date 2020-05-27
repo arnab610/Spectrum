@@ -28,7 +28,7 @@ get_time();
 var h=document.querySelectorAll(".hover-class");
 for(var i=0;i<h.length;i++)
 {
-  if(hours>=10 && hours<5)
+  if(hours>=10 && hours<=5)
   {
     h[i].classList.add("pointer");
   }

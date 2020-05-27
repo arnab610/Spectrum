@@ -323,8 +323,8 @@ button {
   100% { transform: rotate(360deg); background-color: cyan; left:95%;}
 }
 .pointer {
-  pointer-events: none;
+  pointer-events: auto;
 }
 .pointer1 {
-  pointer-events:auto;
+  pointer-events:none;
 }
